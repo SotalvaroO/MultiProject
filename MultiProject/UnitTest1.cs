@@ -8,7 +8,7 @@ namespace MultiProject
         public void Test1()
         {
             SampleClass c = new SampleClass(1);
-            var myInt = c.Random;
+            var myInt = c.GetRandomNumber();
             Assert.Equal(1, myInt);
         }
     }
